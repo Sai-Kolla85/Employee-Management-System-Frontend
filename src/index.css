@@ -1,0 +1,60 @@
+/* src/index.css */
+
+/* Base reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100%;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background: #f9fafb; /* light gray background */
+  color: #111827;      /* dark gray text */
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Links */
+a {
+  color: #2563eb;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Headings */
+h1, h2, h3 {
+  margin-bottom: 0.6rem;
+  font-weight: 600;
+  color: #111827;
+}
+
+p {
+  margin-bottom: 0.8rem;
+  color: #374151;
+}
+
+/* Buttons */
+button {
+  border-radius: 6px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #2563eb;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+button:hover {
+  background-color: #1e40af;
+}
+button:focus {
+  outline: 2px solid #93c5fd;
+  outline-offset: 2px;
+}
