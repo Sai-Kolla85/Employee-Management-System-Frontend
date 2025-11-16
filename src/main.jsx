@@ -10,7 +10,7 @@ const root = createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename='/HMS/'>
+    <BrowserRouter basename='/EMS/'>
       <AuthProvider>
         <App />
       </AuthProvider>
